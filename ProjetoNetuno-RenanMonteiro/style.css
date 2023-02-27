@@ -1,0 +1,879 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-size: 100%;
+    font-family: 'Noto Sans';
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;   
+}
+
+/* Cabecalho */
+.cabecalho{
+   background-color: #1A7FBD;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 24px;
+   height: 100%;  
+}
+
+.cabecalho-imagem{
+    height: 30px;
+    width: 150px;
+    margin-top: -5px;
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.cabecalho-menu-item{
+    text-decoration: none;
+    font-family:'Noto Sans';
+    color: #CECECE;
+    font-size: 16px;
+}
+
+.item-especial{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-top: -11px;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+}
+
+.cabecalho-menu-item-especial{
+    text-decoration: none;
+}
+
+.linhaheader {
+    margin-top: -15px;
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      #ffffff,
+      rgba(255, 255, 255, 0)
+    );
+  }
+
+/* section 1*/
+
+.imagem-banner{
+    width: 70%;
+    height: 650px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home{   
+    height: 600px;
+    width: 100%;
+    background: #1A7FBD;
+}
+
+/* Inicio Formulario */
+
+.form{
+    height: 110%;
+    width: 30%;
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translate(20%,-50%);
+    background:white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 1px solid #58C5E6;    
+}
+
+.form h3{
+    color: #CECECE;
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.radioform{
+    display: flex;
+    justify-content: space-around;
+    background: #1A7FBD;
+    border-radius: 1px;
+}
+
+span{
+    color: #1A7FBD;
+}
+
+.spancomecoform{
+    padding-left: 5.7em;
+}
+
+.spanconhe{
+    padding-left: 3em;
+    margin-top: 20em;
+    color: white;
+    position: relative;
+}
+
+.spanfimform{
+    padding-left: 3em;
+}
+.comecoform{
+    height: 17%;
+    width: 80%;
+    padding-inline-start: 1.4em;
+    padding-bottom: 5em;
+    background: white;
+    
+}
+
+.input-form {
+    background: #fbfbfb;
+    border: 1px solid #cecece;
+    border-radius: 6px;
+    width: 23em;
+    height: 40px;   
+}
+
+.meioform{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: justify;
+    text-align: center;
+    height: 30%;
+    width: 22.4em;
+    background-color: #1A7FBD;
+    padding-top: 7px;
+    margin-top: -22px;
+}
+
+
+.conhe{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-inline: 10px;
+}
+
+.fimform{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    padding-inline-start: 29px;
+    padding-inline-end: 29px;
+    justify-content: justify;
+    text-align: left;
+    padding-top: 1em;
+}
+
+
+.form button{
+    display: flex;
+    border-radius: 4px;
+    border-color:#CECECE;
+    justify-content: justify;
+    width: 23em;
+    height: 40px;
+    background-color: #1A7FBD;
+    margin-left: 2em;
+}
+
+.botaoform{
+    padding-left: 10em;
+    font-family: 'Noto Sans';
+    color: #CECECE;
+}
+
+form input{
+    margin-bottom: 5px;
+    
+}
+
+.politica{
+    font-style: normal;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #9A9A9A;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.politica a{
+    text-decoration: none;
+}
+
+/* Final Formulário*/
+
+/* Sessão Projeto*/
+
+.sessao-oprojeto{
+    background-color: #1A7FBD;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10em;
+}
+
+.imagem-projeto {
+    height: 90%;
+    width: 400px;
+    padding-left: 10em;
+    padding-right: 20px;
+}
+
+.corpo-projeto{
+    text-align: left;
+    width: 30%;
+}
+
+.corpo-projeto h2{
+    color: #CECECE;
+    text-align: center;
+}
+
+.corpo-projeto p{
+    color: white;
+    text-align: justify;
+    font-size:12px;
+}
+
+/* Fim sessão Projeto*/
+/* Inicio sessão problema*/
+.sessao-problema{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4em;
+    background-color: white;
+}
+
+
+.imagem-problema{
+    height: 90%;
+    width: 80%;
+    padding-left: 9em;
+    background-color: white;
+}
+
+.corpo-problema{
+    text-align: left;
+    padding-left: 6em;
+}
+
+.corpo-problema h2{
+    color: #1A7FBD;
+    text-align: center;
+    padding-right: 12em;
+}
+
+.corpo-problema p{
+    text-align: justify;
+    font-size: 18px;
+    padding-right: 15em;
+}
+
+/* Fim sessão problema*/
+/* Inicio sessão caixas*/
+
+.caixas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height:30%;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'HK Grotesk';
+    margin-top: -5em;
+    background: #F9F9F9;
+
+}
+
+.comunidade{
+    width: 23%;
+    height: 12em;
+    border: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    text-align: justify;
+    background: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px  rgba(128, 128, 128, 0.863) ;
+}
+
+.comunidade h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.comunidade p{
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    margin:10px;
+}
+
+.oportunidades{
+    width: 23%;
+    height: 12em;
+    border: 5px;
+    text-align: justify;
+    box-sizing: border-box;
+    background: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px  rgba(128, 128, 128, 0.863) ;
+}
+
+.oportunidades h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.oportunidades p{
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    margin:10px;
+}
+
+.expreal{
+    width: 23%;
+    height: 12em;
+    text-align: justify;
+    box-sizing: border-box;
+    background: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px  rgba(128, 128, 128, 0.863) ;
+}
+
+.expreal h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.expreal p{
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    margin:10px;
+}
+
+/* Fim sessão caixas*/
+/* Inicio sessão Sua Jornada*/
+
+.suajornada{
+    width: 90%;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.suajornada h1{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #6CBFF2 100.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    letter-spacing: -0.03em;
+    margin-right: 60px;
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.dura{
+    height: 77px;
+    width: 300px;
+    box-sizing: border-box;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    display: flex;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+}
+
+.calendario{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.calendariofoto{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    
+}
+
+.duracaop{
+    padding-inline-start: 80px;
+    padding-top: 2.5px;
+}
+
+.dozero{
+    height: 77px;
+    width: 300px;
+    box-sizing: border-box;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    display: flex;
+}
+
+.medalha{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.medalhafoto{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    
+}
+
+.dozerop{
+    padding-inline-start: 80px;
+    padding-top: 2.5px;
+}
+
+.conceitos{
+    height: 77px;
+    width: 300px;
+    box-sizing: border-box;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    display: flex;
+}
+
+.relogio{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.relogiofoto{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    
+}
+
+.conceitosp{
+    padding-inline-start: 80px;
+    padding-top: 2.5px;
+}
+
+.bloco2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+.agil{
+    height: 77px;
+    width: 300px;
+    box-sizing: border-box;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    display: flex;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+}
+
+.homem{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.homefoto{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    
+}
+
+.agilp{
+    padding-inline-start: 80px;
+    padding-top: 2.5px;
+}
+
+.homeoffice{
+    height: 77px;
+    width: 300px;
+    box-sizing: border-box;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    display: flex;
+}
+
+.group{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.groupfoto{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.homeofficep{
+    padding-inline-start: 80px;
+    margin-top: 9px;
+}
+
+.tecnologia{
+    height: 77px;
+    width: 300px;
+    box-sizing: border-box;
+    background: #1A7FBD;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    display: flex;
+}
+
+.targed{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.targedfoto{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+    
+}
+
+.tecnop{
+    padding-inline-start: 80px;
+    padding-top: 2.5px;
+}
+
+/* Fim sessão Sua Jornada*/
+/* Cadastro*/
+
+.cadastrar {
+    font-size: 16px;
+    padding-inline-start: 320px;
+    padding-top: 100px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 459px;
+    height: 70px;
+    left: 491px;
+    top: 3029px;
+  }
+  
+.enter {
+    width: 25px;
+    height: 25px;
+    padding-inline-start: 5px;
+  }
+  
+.prosele {
+    color:white;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  .prosele2 {
+    color:#1A7FBD;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 15px;
+  }
+  
+.vetor1 {
+    padding-inline-start: 80px;
+    padding-top: 20px;
+  }
+
+.bseletivo {
+    background-color: black;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-content: center;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+
+  }
+  
+.botaoseletivo{
+    text-decoration: none;
+}
+
+/* Fim cadastro*/
+/* Inicio Objetivos*/
+
+  .objetivos{
+    background: #1A7FBD;
+    /*background: radial-gradient(250% 300% at 100% 100%, #1A7FBD 0%, rgba(84, 177, 234, 0) 100%);*/
+    height: 500px;
+  }
+
+.objetivoh1{
+    padding-top: 20px;
+    padding-inline-start: 12em;
+    color: white;
+    font-size: 40px;
+  }
+  
+.blocosfim {
+  padding-top: 20px;
+  display: flex;
+  padding-inline-start: 7em;
+  }
+  
+.otimizar {
+    box-sizing: border-box;
+    width: 327px;
+    height: 228px;
+    left: 889px;
+    top: 2263px;
+    background: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    margin-right: 5px; 
+  }
+  
+.gerar {
+  box-sizing: border-box;
+  width: 327px;
+  height: 228px;
+  left: 889px;
+  top: 2263px;
+  background: #FBFBFB;
+  border: 1px solid #E8E8E8;
+  border-radius: 12px;
+  margin-right: 5px;
+  }
+  
+.filtrar {
+  box-sizing: border-box;
+  width: 327px;
+  height: 228px;
+  left: 889px;
+  top: 2263px;
+  background: #FBFBFB;
+  border: 1px solid #E8E8E8;
+  border-radius: 12px;
+  margin-right: 5px;
+  }
+  
+.gerarh1 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  }
+  
+.otimizarh1 {
+    font-size: 30px;
+  text-align: center;
+  color: black;
+  }
+
+.filtrarh1 {
+font-size: 30px;
+  text-align: center;
+  color: black;
+  } 
+  
+.classe-otimizar-p {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Fim Objetivos*/
+/* Rodape*/
+
+.rodape {
+    background-color: black;
+    width: 100%;
+    height: 15em;
+}
+
+.logo-rodape{
+    display: flex;
+}
+  
+.banner-logo-rodape {
+    padding-inline-start: 150px;
+    margin-top: 1.5em;
+  }
+  
+.social {
+    display: flex;
+    padding-inline-start: 150px;
+    margin-top: -6em;
+  }
+  
+.fbfoto {
+    width: 16px;
+    height: 16px;
+  }
+  
+.igfoto {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  }
+  
+.linkedinfoto {
+    width: 16px;
+    height: 16px;
+  }
+  
+.direitosp {
+    color: #B9B9B9;
+    font-size: 9px;
+    padding-inline-start: 150px;
+  }
+  
+.rodape-botao-seletivo{
+    background-color: #FFFFFF;
+    color: black;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #1A7BB6;
+    align-content: center;
+    cursor: pointer;
+    
+  }
+  
+.foto-logo-rodape {
+    display: flex;
+  }
+  
+  .botao-rodape {
+padding-inline-start: 150px;
+   margin-top: 90px;
+  }
+  
+.links-rodape {
+    color: white;
+    padding-inline-start: 80px;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  
+.problema-rodape {
+    margin-top: 10px;
+  }
+  
+.jornada-rodape {
+    margin-top: 10px;
+  }
+  
+.objetivo-rodape {
+    margin-top: 10px;
+  }
+  
+.linhavertical {
+    margin-top: 50px;
+    padding-inline-start: 50px;
+    height: 150px;
+    border-right: 1px solid #424242;
+  }
+  
+.contatonet {
+    color: white;
+    padding-inline-start: 20px;
+    margin-top: 40px;
+  }
+  
+.contatoh1 {
+  font-size: 16px;
+  }
+  
+.contatop {
+    font-size: 16px;
+  }
+  
+.itens-rodape {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Fim rodape*/
+  /* Fim codigo!!!!!!!*/
